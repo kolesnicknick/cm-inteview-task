@@ -38,7 +38,7 @@ const summaryJSON = Summary.postsAnalysisReport(new JSONReport());
 
 const summaryCSV = Summary.postsAnalysisReport(new CSVReport());
 
-**Console Log:
+**Console Log**:
 
 const consoleReport = Summary.postsAnalysisReport(new ConsoleReport());
 
