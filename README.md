@@ -2,7 +2,7 @@
 Interview task to parse and analyze CSV file
 
 ----------------------------------
-# TASK
+# Task
 The purpose of this challenge is for us to get a better idea of how you think, organize code, and tackle the problems at hand. This challenge should not take you longer than 4 hours. Let us know if you have any questions.
 
 ----------------------------------
@@ -25,18 +25,21 @@ Bonus points:
 * Write unit tests
 
 
-# SOLUTION
+# Solution
 Please clone repo and run: npm start
 Then check /reports/ for the reports in the specified in index TS format
 Currently there are 3 formats maintained:
 
-JSON:
+**JSON**:
+
 const summaryJSON = Summary.postsAnalysisReport(new JSONReport()); 
 
-CSV:
+**CSV**:
+
 const summaryCSV = Summary.postsAnalysisReport(new CSVReport());
 
-Console Log:
+**Console Log:
+
 const consoleReport = Summary.postsAnalysisReport(new ConsoleReport());
 
 Good luck!
